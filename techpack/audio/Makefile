@@ -8,7 +8,6 @@ LINUXINCLUDE    += \
                 -I$(srctree)/techpack/audio/include/uapi \
                 -I$(srctree)/techpack/audio/include/elliptic \
                 -I$(srctree)/techpack/audio/include
-
 obj-y += soc/
 obj-y += dsp/
 obj-y += ipc/
